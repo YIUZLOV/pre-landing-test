@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__content container">
+            <a class="header__logo">
+                <span>Trend`n</span>
+                <span>Daily Official</span>
+            </a>
+            <p class="header__prop">Limited Supply</p>
+        </div>
+    </header>
+    <div class="progress-bar-container">
+            <div class="progress-bar"></div>
+        </div>
+    <main class="main-content container">
+        <section class="offer">
+            <h1 class="offer__title">Absolutely free!</h1>
+            <div class="offer__conditions">
+                <p>Free Shipping</p>
+                <p>No Credit Card Required</p>
+            </div>
+            <h2 class="offer__subtitle">Win a free iphone<span>®</span> 16 pro</h2>
+            <img
+                class="offer__image"
+                src="./image/iphone 16 pro.webp" 
+                alt="Изображение Iphone 16 Pro"
+                loading="lazy"
+                width="230px"
+                height="300px"
+            >
+            <p class="offer__notice">*Images used are for representation purposes only.</p>
+        </section>
+        <section class="contact">
+            <div class="contact__timing">
+                <span>Today's entry will expire in</span>
+                <span class="contact__timing__countdown">23:00:00</span>
+            </div>
+            
+            <form 
+                class="contact__form" 
+                action="/submit-form" 
+                method="post"
+            >
+                <p class="contact__call-to-action">Confirm Your Email Address</p>
+                <input
+                    class="contact__form__input"
+                    type="email" 
+                    name="email" 
+                    placeholder="Enter Email Address" 
+                    required
+                >
+                <button 
+                    class="contact__form__submit" 
+                    type="submit"
+                >
+                    Continue
+                </button>
+            </form>
+            <p class="contact__success-message visually-hidden">Congratulations, you are participating in the raffle!</p>
+            <p class="contact__terms">By clicking 'Continue, I agree to receive emails from TrendnDailyOfficial and its partners. I also agree to the Privacy Policy which includes details on the collection and use of my personal data, the Terms of Use which includes a mandatory arbitration provision, and this site's use of site visit recording technology provided by TrustedForm, Jornaya and Lucky Orange. I further agree to the Official Rules which govern this promotion.</p>
+        </section>
+    </main>
+    <script type="module" src="./scripts.js"></script>
+</body>
+</html>

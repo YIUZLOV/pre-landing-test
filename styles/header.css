@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    background: #2F6CD7;
+    background: linear-gradient(90deg,rgba(47, 108, 215, 1) 0%, rgba(27, 69, 143, 1) 100%);
+    padding-block: 15px;
+    color: #fff;
+    
+}
+
+.header__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo span:first-child {
+    font-weight: 900;
+}
+
+.header__prop {
+    font-size: 20px;
+    font-weight: 600;
+}
